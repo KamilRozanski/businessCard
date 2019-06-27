@@ -1,2 +1,68 @@
-main {
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
     background-color: #2C2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif;
+}
+
+.card {
+    max-width: 624px;
+    width: 100%;
+    height: 320px;
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    
+}
+
+.card--img__wraper img {
+    border-radius: 50%;
+    max-width: 148px;
+    max-height: 148px;
+    margin-right: 32px;
+}
+
+.user--name {}
+
+.user--name__header {
+    margin: 0px;
+    font-weight: normal;
+}
+
+.user--ocupation p {
+    margin: 0px;
+    font-style: italic;
+    color: #C4C4C4;
+}
+
+.user--about p {
+    line-height: 20px;
+}
+
+.user--about__strong {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+
+.user--socials {
+    margin-top: 50px;
+}
+.user--socials__tags {
+    color: #E20613;
+    font-weight: normal;
+}
