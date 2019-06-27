@@ -41,12 +41,15 @@ body {
 .user--name__header {
     margin: 0px;
     font-weight: normal;
+    font-size: 36px;
 }
 
 .user--ocupation p {
     margin: 0px;
     font-style: italic;
     color: #C4C4C4;
+    font-size: 18px;
+    margin-bottom: 32px;
 }
 
 .user--about p {
