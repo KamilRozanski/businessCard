@@ -29,22 +29,22 @@ body {
     
 }
 
-.card--img__wraper img {
+.card__wraper img {
     border-radius: 50%;
     max-width: 148px;
     max-height: 148px;
     margin-right: 32px;
 }
 
-.user--name {}
 
-.user--name__header {
+
+.user__header {
     margin: 0px;
     font-weight: normal;
     font-size: 36px;
 }
 
-.user--ocupation p {
+.user__ocupation p {
     margin: 0px;
     font-style: italic;
     color: #C4C4C4;
@@ -52,7 +52,7 @@ body {
     margin-bottom: 32px;
 }
 
-.user--about p {
+.user__about p {
     line-height: 20px;
 }
 
@@ -62,10 +62,10 @@ body {
 }
 
 
-.user--socials {
+.user__socials {
     margin-top: 50px;
 }
-.user--socials__tags {
+.user__tags {
     color: #E20613;
     font-weight: normal;
 }
